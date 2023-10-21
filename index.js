@@ -9,7 +9,7 @@ const cors = require("cors")
 //middlewares
 app.use(express.json())
 app.use(cors({
-    origin: "https://foodvista.onrender.com",
+    origin: "https://food-vista.onrender.com",
     credentials: true
 }))
 dotenv.config()
